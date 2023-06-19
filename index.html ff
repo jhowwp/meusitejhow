@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jhow's Job</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jhow's Job</h1>
+  </header>
+
+  <nav>
+    <a href="profissao1.html">Engenheiro de software</a>
+    <a href="profissao2.html">Analista de Business Intelligence</a>
+    <a href="profissao3">Desenvolvedor de aplicativos moveis</a>
+    <a href="sobreoautor.html"> sobre o autor</a>
+    <a href="contato.html">Fale Conosco</a>
+  </nav>
+<div id="logo">
+   <img src="Logo" src=jota.jpg"
+</div>
+
+  <section id="Engenheiro de software">
+    <h2>Engenheiro de software</h2>
+    <img id="icone" src="engenheiro.jpg">
+  </section>
+
+  <section id="Analista de Business Intelligence">
+    <h2>Analista de Business Intelligence</h2>
+    <p><img id="icone" src="analista.jpg"</p>
+  </section>
+
+  <section id="Desenvolvedor de aplicativos móveis">
+    <h2>Desenvolvedor de aplicativos moveis</h2>
+    <img id="logo" src="desenvolvedor.jpg"
+  </section>
+
+  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Entre em contato para sugestoes ou duvidas:</p>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required><br>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Jhow's Job. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
